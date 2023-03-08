@@ -1,0 +1,46 @@
+body{
+background-image: url(pexels-anete-lusina-6331082.jpg);
+/* Importing background image for the background */
+}
+.container{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vw; 
+
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid black;
+    box-shadow: 2px 2px 2px 2px;
+    border-radius: 10%;
+
+    min-height: 60vh;
+    min-width: 30vw;
+    
+   
+    background-color: rgb(250, 183, 183);
+}
+
+.form h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color:black;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin:3px;
+    max-height: 1vh;
+    max-width: 5vw;
+    min-height: 3vh;
+    min-width: 15vw;
+}
